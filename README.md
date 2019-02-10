@@ -10,7 +10,7 @@ This meme was created by the 4:00 AM gang.
 
 ## How Do I Use It?
 
-Prerequisites: 
+- Prerequisites: 
     - XCode
     - A MacBook
     - ~~a will to live~~
@@ -20,10 +20,12 @@ Prerequisites:
 3. Press `⌘ R` (Command + `R`) to run, or use the Build option from the menu.
 4. Install the generated `.app` file into your `Applications` folder.
 5. Go to `System Preferences` > `Users and Groups` > `Login Items`, click `+`, and add the app.
+6. Hold `⌘` and drag the little thing to wherever your little heart desires.
 
 ## Why Does this Exist?
 
 Why does anything exist? *Does* anything exist? 🤔
+\*`cmatrix` intensifies\*
 
 ## How Does it Work?
 
