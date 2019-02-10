@@ -22,7 +22,35 @@ Why does anything exist? *Does* anything exist? 🤔
 
 ## How Does it Work?
 
+Poorly.
 
+JK. It works pretty well. It's very simple, too:
+
+I blatantly copied some code from God-knows-where and put it in `Battery.swift`, then wrote the `BatteryAPI` as a completely
+un-necessary frivolity to interface with it, with a series of highly complicated and useful functions such as:
+
+```swift
+func isCharging() -> String {
+    return String(battery.isCharging());
+}
+```
+
+Oooh. Aaah.
+
+Basically it's a bunch of `menuitems` with an update function that does this:
+
+```swift
+statusItem.button?.title = batteryApi.currentCapacity(unit: true);
+currentCapacityOutlet.title = "Current Capacity: " + batteryApi.currentCapacity();
+maxCapacityOutlet.title = "Maximum Capacity: " + batteryApi.maxCapacity();
+...
+```
+
+On a timer that looks like this:
+
+```swift
+Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(StatusMenuController.timerFire), userInfo: nil, repeats: true);
+```
 
 ## Contributing
 
