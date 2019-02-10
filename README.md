@@ -50,7 +50,7 @@ func isCharging() -> String {
 }
 ```
 
-*Yeah that's right. I use semicolons in Swift.*
+<sub><sup>Yeah that's right. I use semicolons in Swift.</sup></sub>
 
 Oooh. Aaah.
 
@@ -81,7 +81,7 @@ Nah. I mean, if you really want to, I won't stop you. But there are probably man
 
 ## License
 
-This software is licensed under a *Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License*. 'Cause it's the CC license with the coolest name :)
+This software is licensed under a *Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License*. 'Cause it's the CC license with the coolest name :) And also 'cause they say not to use it for code, and I'm that guy.
 
 <br><br><br><br><br><br>
 <br><br><br><br><br><br>
