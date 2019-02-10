@@ -1,6 +1,6 @@
 # mAh Battery
 
-Adds a mAh (milliampere-hours) indicator to the Mac bar.
+Adds a mAh (milliampere-hours) battery level indicator to the Mac bar.
 
 This meme was created by the 4:00 AM gang.
 
