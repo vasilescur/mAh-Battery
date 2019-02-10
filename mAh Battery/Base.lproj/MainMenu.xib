@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="mAh_Battery" customModuleProvider="target"/>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="OEo-VO-el5" customClass="StatusMenuController" customModule="mAh_Battery" customModuleProvider="target">
+            <connections>
+                <outlet property="chargeOutlet" destination="Guo-fk-D3Z" id="9lG-BK-mnE"/>
+                <outlet property="chargingOutlet" destination="Oud-wZ-E6L" id="4ki-kE-1Ij"/>
+                <outlet property="currentCapacityOutlet" destination="u7g-o5-Obg" id="mIH-E2-vBh"/>
+                <outlet property="designCapacityOutlet" destination="RC5-oQ-YQ3" id="c8P-MD-qa4"/>
+                <outlet property="maxCapacityOutlet" destination="Xxq-hU-7sJ" id="DPl-x2-G2d"/>
+                <outlet property="statusMenu" destination="i0r-KR-ZeB" id="aGn-68-Vso"/>
+            </connections>
+        </customObject>
+        <menu id="i0r-KR-ZeB">
+            <items>
+                <menuItem title="Current Capacity" id="u7g-o5-Obg">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Maximum Capacity" id="Xxq-hU-7sJ">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Design Capacity" id="RC5-oQ-YQ3">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="xjO-re-6M0"/>
+                <menuItem title="Charge" id="Guo-fk-D3Z" userLabel="Charge">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Charging" id="Oud-wZ-E6L">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="ozw-E8-GNm"/>
+                <menuItem title="Refresh" id="26N-Gv-0sO">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="refreshClicked:" target="OEo-VO-el5" id="RyJ-kf-ZYF"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Quit" id="dk5-f5-DAZ">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quitClickedWithSender:" target="OEo-VO-el5" id="Yz1-gM-KYs"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="-1102" y="221"/>
+        </menu>
+    </objects>
+</document>
