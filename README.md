@@ -87,4 +87,4 @@ This software is licensed under a *Creative Commons Attribution-NonCommercial-Sh
 <br><br><br><br><br><br>
 
 
-<marquee><sub>end my suffering<sub/></marquee>
+<blink><sub>end my suffering<sub/></blink>
