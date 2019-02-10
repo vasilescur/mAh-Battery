@@ -2,7 +2,7 @@
 
 Adds a mAh (milliampere-hours) indicator to the Mac bar.
 
-This meme was created by the 4:00 AM gang.
+<span style="color: red">This meme was created by the 4:00 AM gang.</span>
 
 ## Screenshot
 
