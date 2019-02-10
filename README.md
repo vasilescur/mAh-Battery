@@ -4,7 +4,7 @@ Adds a mAh (milliampere-hours) battery level indicator to the Mac bar.
 
 This meme was created by the 4:00 AM gang.
 
-By the way this is totally a joke, it's the first thing I ever wrote in Swift.
+By the way this is totally a joke, it's the first thing I ever wrote in Swift. lol gotem
 
 ## Screenshot
 
