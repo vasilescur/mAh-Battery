@@ -87,4 +87,4 @@ This software is licensed under a *Creative Commons Attribution-NonCommercial-Sh
 <br><br><br><br><br><br>
 
 
-<blink><sub>end my suffering<sub/></blink>
+<FONT COLOR="#FF0000">e</FONT><FONT COLOR="#FF6000">n</FONT><FONT COLOR="#FFC000">d</FONT><FONT COLOR="#FFff00"> </FONT><FONT COLOR="#9Fff00">m</FONT><FONT COLOR="#3Fff00">y</FONT><FONT COLOR="#00ff00"> </FONT><FONT COLOR="#00ff60">s</FONT><FONT COLOR="#00ffC0">u</FONT><FONT COLOR="#00ffff">f</FONT><FONT COLOR="#00C0ff">f</FONT><FONT COLOR="#0060ff">e</FONT><FONT COLOR="#0000ff">r</FONT><FONT COLOR="#3F00ff">i</FONT><FONT COLOR="#9F00ff">n</FONT><FONT COLOR="#FF00ff">g</FONT>
