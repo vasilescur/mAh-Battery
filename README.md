@@ -82,3 +82,30 @@ Nah. I mean, if you really want to, I won't stop you. But there are probably man
 ## License
 
 This software is licensed under a *Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License*. 'Cause it's the CC license with the coolest name :)
+
+
+
+
+
+
+
+
+
+
+     .
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+
+
+
+
+
+end my suffering
