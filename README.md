@@ -10,7 +10,10 @@ This meme was created by the 4:00 AM gang.
 
 ## How Do I Use It?
 
-Prerequisites: **Xcode**.
+Prerequisites: 
+    - XCode
+    - A MacBook
+    - ~~a will to live~~
 
 1. Clone the repository.
 2. Open the project in XCode.
