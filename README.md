@@ -9,10 +9,10 @@ This meme was created by the 4:00 AM gang.
 <img width="300" src="https://user-images.githubusercontent.com/10100323/52538476-0a461500-2d41-11e9-9617-6bdd1d74b6c8.jpg">
 
 Get it cause the screen was shot
-
+<br><br>
   
   ...
-  
+  <br>
 
 <img width="200" alt="screenshot" src="https://user-images.githubusercontent.com/10100323/52536665-a9f8a880-2d2b-11e9-94fc-87642f8bbc3d.png">
 
@@ -83,29 +83,8 @@ Nah. I mean, if you really want to, I won't stop you. But there are probably man
 
 This software is licensed under a *Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License*. 'Cause it's the CC license with the coolest name :)
 
-
-
-
-
-
-
-
-
-
-     .
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-
-
-
+<br><br><br><br><br><br>
+<br><br><br><br><br><br>
 
 
 end my suffering
