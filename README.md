@@ -35,6 +35,8 @@ func isCharging() -> String {
 }
 ```
 
+*Yeah that's right. I use semicolons in Swift.*
+
 Oooh. Aaah.
 
 Basically it's a bunch of `menuitems` with an update function that does this:
@@ -49,7 +51,13 @@ maxCapacityOutlet.title = "Maximum Capacity: " + batteryApi.maxCapacity();
 On a timer that looks like this:
 
 ```swift
-Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(StatusMenuController.timerFire), userInfo: nil, repeats: true);
+Timer.scheduledTimer(
+    timeInterval: 5, 
+    target: self, 
+    selector: #selector(StatusMenuController.timerFire), 
+    userInfo: nil, 
+    repeats: true
+);
 ```
 
 ## Contributing
@@ -58,4 +66,4 @@ Nah. I mean, if you really want to, I won't stop you. But there are probably man
 
 ## License
 
-This software is licensed under a *Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License*. See `LICENSE.md` for more details.
+This software is licensed under a *Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License*. 'Cause it's the CC license with the coolest name :)
