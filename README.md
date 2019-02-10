@@ -6,7 +6,15 @@ This meme was created by the 4:00 AM gang.
 
 ## Screenshot
 
-<img width="152" alt="screenshot" src="https://user-images.githubusercontent.com/10100323/52536665-a9f8a880-2d2b-11e9-94fc-87642f8bbc3d.png">
+<img width="300" src="https://user-images.githubusercontent.com/10100323/52538476-0a461500-2d41-11e9-9617-6bdd1d74b6c8.jpg">
+
+Get it cause the screen was shot
+
+  
+  ...
+  
+
+<img width="200" alt="screenshot" src="https://user-images.githubusercontent.com/10100323/52536665-a9f8a880-2d2b-11e9-94fc-87642f8bbc3d.png">
 
 ## How Do I Use It?
 
