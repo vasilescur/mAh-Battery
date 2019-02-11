@@ -19,6 +19,8 @@ class StatusMenuController: NSObject {
     @IBOutlet weak var maxCapacityOutlet: NSMenuItem!
     @IBOutlet weak var designCapacityOutlet: NSMenuItem!
     
+    @IBOutlet weak var powerOutlet: NSMenuItem!     // Lol, "power outlet"
+    
     @IBOutlet weak var chargeOutlet: NSMenuItem!
     @IBOutlet weak var chargingOutlet: NSMenuItem!
     
@@ -45,6 +47,8 @@ class StatusMenuController: NSObject {
         currentCapacityOutlet.title = "Current Capacity: " + batteryApi.currentCapacity();
         maxCapacityOutlet.title = "Maximum Capacity: " + batteryApi.maxCapacity();
         designCapacityOutlet.title = "Design Capacity: " + batteryApi.designCapacity();
+        
+        powerOutlet.title = "Power: " + batteryApi.wattHours();
         
         chargeOutlet.title = "Charge: " + batteryApi.charge();
         chargingOutlet.title = "Is Charging: " + batteryApi.isCharging();

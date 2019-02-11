@@ -46,6 +46,7 @@ public struct Battery {
         case Temperature      = "Temperature"
         /// Time remaining to charge/discharge
         case TimeRemaining    = "TimeRemaining"
+        case Voltage          = "Voltage"
     }
     
     
@@ -138,6 +139,17 @@ public struct Battery {
     public func currentCapacity() -> Int {
         let prop = IORegistryEntryCreateCFProperty(service,
                                                    Key.CurrentCapacity.rawValue as CFString!,
+                                                   kCFAllocatorDefault,0)
+        return prop!.takeUnretainedValue() as! Int
+    }
+    
+    /**
+     Get the current voltage of the battery in mV
+    
+     */
+    public func voltage() -> Int {
+        let prop = IORegistryEntryCreateCFProperty(service,
+                                                   Key.Voltage.rawValue as CFString!,
                                                    kCFAllocatorDefault,0)
         return prop!.takeUnretainedValue() as! Int
     }

@@ -10,7 +10,7 @@
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="mAh_Battery" customModuleProvider="target"/>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <customObject id="OEo-VO-el5" customClass="StatusMenuController" customModule="mAh_Battery" customModuleProvider="target">
@@ -20,6 +20,7 @@
                 <outlet property="currentCapacityOutlet" destination="u7g-o5-Obg" id="mIH-E2-vBh"/>
                 <outlet property="designCapacityOutlet" destination="RC5-oQ-YQ3" id="c8P-MD-qa4"/>
                 <outlet property="maxCapacityOutlet" destination="Xxq-hU-7sJ" id="DPl-x2-G2d"/>
+                <outlet property="powerOutlet" destination="lKt-fK-gDc" id="cPF-2p-xTd"/>
                 <outlet property="statusMenu" destination="i0r-KR-ZeB" id="aGn-68-Vso"/>
             </connections>
         </customObject>
@@ -32,6 +33,10 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                 </menuItem>
                 <menuItem title="Design Capacity" id="RC5-oQ-YQ3">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="yFK-fx-4eJ"/>
+                <menuItem title="Power" id="lKt-fK-gDc">
                     <modifierMask key="keyEquivalentModifierMask"/>
                 </menuItem>
                 <menuItem isSeparatorItem="YES" id="xjO-re-6M0"/>
@@ -55,7 +60,7 @@
                     </connections>
                 </menuItem>
             </items>
-            <point key="canvasLocation" x="-1102" y="221"/>
+            <point key="canvasLocation" x="-1496" y="159"/>
         </menu>
     </objects>
 </document>

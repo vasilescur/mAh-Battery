@@ -50,6 +50,20 @@ class BatteryAPI {
         return String(battery.designCapacity()) + (unit ? " mAh" : "");
     }
     
+    func voltage(unit : Bool = true) -> String {
+        return String(battery.voltage()) + (unit ? " mV" : "");
+    }
+    
+    func wattHours(unit : Bool = true) -> String {
+        let mAh = Double(battery.currentCapacity());
+        let mV = Double(battery.voltage());
+        let V = mV / 1000.0;
+        
+        let result = (mAh * V) / 1000.0;
+        let resultStr = String(format: "%.3f", result);
+        
+        return resultStr + (unit ? " Wh" : "");
+    }
 
     /*
  
